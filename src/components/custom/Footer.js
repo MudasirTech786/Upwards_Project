@@ -161,8 +161,9 @@ export default function Footer({ dictionary }) {
             </div>
             <div className="flex gap-4">
               <Link
-                href="#"
+                href="https://www.linkedin.com/company/upwardsuae/"
                 className="text-white hover:text-[#d2a97b] transition-colors"
+                target="_blank"
               >
                 <Linkedin className="w-5 h-5" />
               </Link>
@@ -173,8 +174,9 @@ export default function Footer({ dictionary }) {
                 <Youtube className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/upwards_ae/?igsh=MW9vNnh4amF1d2NtYQ%3D%3D#"
                 className="text-white hover:text-[#d2a97b] transition-colors"
+                target="_blank"
               >
                 <Instagram className="w-5 h-5" />
               </Link>

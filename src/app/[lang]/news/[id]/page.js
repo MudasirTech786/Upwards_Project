@@ -34,7 +34,7 @@ export default async function NewsPage({ params }) {
             alt=""
           />
 
-          <h2 className="text-[25px] font-bold my-5">{news.title}</h2>
+          <h2 className="text-[25px] font-bold my-5">{news.Title}</h2>
 
           <p className="whitespace-pre-wrap">{news.description}</p>
         </div>
