@@ -28,11 +28,11 @@ export default async function NewsPage({ params }) {
 
       <section className="w-full bg-white py-16 md:py-16 mt-[50px] px-[20px] lg:px-[100px]">
         <div className="container px-4 md:px-6">
-          <img
+          {/* <img
             src={baseUrl + news.Image[0].url}
             className="sm:h-[250px] md:h-[400px] w-full object-cover"
             alt=""
-          />
+          /> */}
 
           <h2 className="text-[25px] font-bold my-5">{news.Title}</h2>
 
