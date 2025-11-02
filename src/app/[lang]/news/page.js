@@ -2,14 +2,14 @@ import Footer from "@/components/custom/Footer";
 import { Navbar } from "@/components/custom/Navbar";
 import React from "react";
 import { getDictionary } from "../dictionaries";
-import { getAllNewsAPI } from "@/EndPoints";
+import { baseUrl } from "@/EndPoints";
 import Image from "next/image";
 import Link from "next/link";
 import NewsSectionItem from "@/components/custom/NewsSectionItem";
 
 async function getData(lang) {
   const response = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/news-collections?populate=*&locale=${lang}`
+    `${baseUrl}/api/news-collections?populate=*&locale=${lang}`
   );
   const res = await response.json();
   return res.data;
