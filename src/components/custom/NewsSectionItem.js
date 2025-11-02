@@ -18,7 +18,7 @@ function NewsSectionItem({ news }) {
       className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
     >
       <Link href={"/news/" + news.documentId}>
-        {/* <div className="relative h-48 w-full">
+        <div className="relative h-48 w-full">
           <Image
             src={baseUrl + news.Image[0].url}
             alt="News image"
@@ -27,7 +27,7 @@ function NewsSectionItem({ news }) {
             unoptimized
           />
 
-        </div> */}
+        </div>
         <div className="p-6">
           <h3 className="text-lg font-semibold text-gray-900 mb-4">
             {news.Title}
